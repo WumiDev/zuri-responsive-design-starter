@@ -20,6 +20,10 @@ div.logo {
     color: #bcc3c7;
 }
 
+a#hamburgerBtn {
+    display: none;
+}
+
 ul.nav-links {
     display: flex;
     margin: 0;
@@ -349,6 +353,10 @@ div.footer h6 {
 @media screen and (max-width: 767px) {
     div.nav-bar  {
         flex-direction: column;
+    }
+
+    a#hamburgerBtn {
+        display: inline;
     }
 
     ul.nav-links {
