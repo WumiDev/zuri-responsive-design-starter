@@ -11,21 +11,20 @@
 <body>
     <div class="nav-bar">
         <div class="logo">Snapshot</div>
-        <!-- <button class="hamburgerBtn"><i class="fa fa-bars"></i></button> -->
         <a href="javascript:void(0);" id="hamburgerBtn" onclick="toggleMenu()">
             <i class="fa fa-bars"></i>
         </a>
         <ul class="nav-links closed" id="top-nav-bar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
     <!-- Hero section -->
 
-    <div class="hero-section">
+    <div class="hero-section" id="hero">
         <div class="hero-content-heading">
             <h3>Let's take a snapshot</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero beatae quod molestias voluptas nam <br> facere numquam quos pariatur repellendus excepturi!</p>
@@ -43,7 +42,7 @@
         </div>
         <div class="hero-background-pos"></div>
     </div>
-    <div class="snapshot-team">
+    <div class="snapshot-team" id="about">
         <h2>Snapshot Team</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, nesciunt!</p>
     </div>
@@ -65,7 +64,7 @@
     </div>
 
     <!-- Gallery section -->
-    <div class="gallery-section">
+    <div class="gallery-section" id="gallery">
         <div class="gallery-content">
             <h4>Gallery</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sapiente. Nullae rem!</p>
@@ -92,7 +91,7 @@
     
     <!-- Footer section -->
     <div class="footer">
-        <div class="footer-content">
+        <div class="footer-content" id="contact">
             <h4>Send a message</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sapiente. Nuleos rem!</p>
         </div>
