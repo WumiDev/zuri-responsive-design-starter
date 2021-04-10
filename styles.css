@@ -22,6 +22,8 @@ div.logo {
 
 a#hamburgerBtn {
     display: none;
+    font-size: 2rem;
+    color: #bcc3c7;
 }
 
 ul.nav-links {
