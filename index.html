@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="nav-bar" id="top-nav-bar">
+    <div class="nav-bar">
         <div class="logo">Snapshot</div>
-        <!-- <button id="hamburgerBtn"></button> -->
-        <ul class="nav-links" id="top-nav">
+        <!-- <button class="hamburgerBtn"><i class="fa fa-bars"></i></button> -->
+        <a href="javascript:void(0);" id="hamburgerBtn" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <ul class="nav-links closed" id="top-nav-bar">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Gallery</a></li>
@@ -86,7 +89,7 @@
             </div>
         </div>
     </div>
-    <!-- </div> -->
+    
     <!-- Footer section -->
     <div class="footer">
         <div class="footer-content">
@@ -105,12 +108,7 @@
         </div>
         <h6>Copyright &copy; 2021 Zuri Training.</h6>
     </div>
-    <script>
-        function toggleMenu();{
-            document.getElementById('top-nav-bar').classList.toggle('nav-links');
-        }
-        var x= document.getElementById('hamburgerBtn');
-        x.onclick = toggleMenu;
-    </script>
+
+    <script src="togglemenu.js"></script>
 </body>
 </html>
